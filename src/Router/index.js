@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 
 import AllItems from "@/Views/AllItems.vue";
 import DescriptionsItems from "@/Views/DescriptionsItems.vue";
-import Graphiques from "@/Views/Graphiques.vue";
+import Propos from "@/Views/Propos.vue";
 
 const routes = [
   {
@@ -11,9 +11,9 @@ const routes = [
     component: AllItems
   },
   {
-    path: "/Graphiques",
-    name: "Graphiques",
-    component: Graphiques
+    path: "/Propos",
+    name: "Propos",
+    component: Propos
 
   },
   {
